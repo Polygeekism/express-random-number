@@ -1,0 +1,23 @@
+{
+  "name": "express-random-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polygeekism/express-random-number.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polygeekism/express-random-number/issues"
+  },
+  "homepage": "https://github.com/Polygeekism/express-random-number#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {}
+}
