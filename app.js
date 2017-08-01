@@ -12,7 +12,10 @@ app.listen(port, function () {
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (1 + max - min) + min);
 }
-var rando =randomNumber(0,10);
+// create a variable to store a random number
+
+//when the correct address is reached, print out the message and random number
 app.get('/random', function(req, res){
-    res.send('Your random number is ' + rando);
+    var rando =randomNumber(0,10);
+    res.send(rando.toString());
 });
